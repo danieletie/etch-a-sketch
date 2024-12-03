@@ -1,9 +1,19 @@
-let grid= document.querySelector('.grid');
+let grid = document.querySelector('.grid');
 
 for (let i = 0; i < 16; i++) {
   for (let j = 0; j < 16; j++) {
-    let cell = document.createElement('div');
+    const cell = document.createElement('div');
     cell.classList.add('cell');
     grid.appendChild(cell);
-  }
-}
+
+    
+  };
+};
+
+let cellTarget = document.querySelectorAll('.cell');
+
+cellTarget.forEach((cell) => {
+  cell.addEventListener('mouseenter', (e) => {
+    cell.style.backgroundColor = 'blue';
+  });
+});
