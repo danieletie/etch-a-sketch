@@ -1,3 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .grid {
   display: flex;
   flex-direction: row;
@@ -17,3 +23,17 @@
 }
 
 
+.grid-size {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 2px solid rgba(241, 207, 155, 0.664);
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.grid-size:hover {
+  background-color: rgb(78, 78, 227);
+}
