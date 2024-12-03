@@ -8,8 +8,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 320px;
-  height: 320px;
+  width: 500px;
+  height: 500px;
 }
 
 
@@ -29,11 +29,11 @@
   margin-bottom: 20px;
   border: 2px solid rgba(241, 207, 155, 0.664);
   border-radius: 10px;
-  background-color: blue;
+  background-color: rgb(59, 59, 237);
   color: white;
   cursor: pointer;
 }
 
 .grid-size:hover {
-  background-color: rgb(78, 78, 227);
+  background-color: rgb(104, 104, 236);
 }
